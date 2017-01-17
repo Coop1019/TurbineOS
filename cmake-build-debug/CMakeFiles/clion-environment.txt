@@ -1,0 +1,2 @@
+ToolSet: 3.21@C:\Users\s-4036711\Dropbox\School\Other\Satellite Club\MinGW
+CMake: 3.6.2@C:\Users\s-4036711\Documents\CLion 2016.2.2\bin\cmake\bin\cmake.exe

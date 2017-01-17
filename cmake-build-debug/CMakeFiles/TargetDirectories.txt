@@ -1,0 +1,3 @@
+C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/CMakeFiles/Version001.dir
+C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/CMakeFiles/rebuild_cache.dir

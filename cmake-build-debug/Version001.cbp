@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Version001"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Version001">
+				<Option output="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Version001.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../include"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/mingw32"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 Version001"/>
+					<CompileFile command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Version001/fast">
+				<Option output="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Version001.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../include"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/mingw32"/>
+					<Add directory="c:\users\s-4036711\dropbox\school\other\satellite club\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 Version001/fast"/>
+					<CompileFile command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/S-4036~1/Dropbox/School/Other/SATELL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/control.cpp">
+			<Option target="Version001"/>
+		</Unit>
+		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/control.h">
+			<Option target="Version001"/>
+		</Unit>
+		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/environment.cpp">
+			<Option target="Version001"/>
+		</Unit>
+		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/environment.h">
+			<Option target="Version001"/>
+		</Unit>
+		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/main.cpp">
+			<Option target="Version001"/>
+		</Unit>
+		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

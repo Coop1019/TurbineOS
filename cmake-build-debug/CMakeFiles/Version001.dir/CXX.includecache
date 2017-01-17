@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/main.cpp
+iostream
+-
+cmath
+-
+
