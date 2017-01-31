@@ -122,60 +122,6 @@ Version001/fast:
 	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/build
 .PHONY : Version001/fast
 
-control.obj: control.cpp.obj
-
-.PHONY : control.obj
-
-# target to build an object file
-control.cpp.obj:
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/control.cpp.obj
-.PHONY : control.cpp.obj
-
-control.i: control.cpp.i
-
-.PHONY : control.i
-
-# target to preprocess a source file
-control.cpp.i:
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/control.cpp.i
-.PHONY : control.cpp.i
-
-control.s: control.cpp.s
-
-.PHONY : control.s
-
-# target to generate assembly for a file
-control.cpp.s:
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/control.cpp.s
-.PHONY : control.cpp.s
-
-environment.obj: environment.cpp.obj
-
-.PHONY : environment.obj
-
-# target to build an object file
-environment.cpp.obj:
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/environment.cpp.obj
-.PHONY : environment.cpp.obj
-
-environment.i: environment.cpp.i
-
-.PHONY : environment.i
-
-# target to preprocess a source file
-environment.cpp.i:
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/environment.cpp.i
-.PHONY : environment.cpp.i
-
-environment.s: environment.cpp.s
-
-.PHONY : environment.s
-
-# target to generate assembly for a file
-environment.cpp.s:
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/environment.cpp.s
-.PHONY : environment.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -212,12 +158,6 @@ help:
 	@echo ... Version001
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... control.obj
-	@echo ... control.i
-	@echo ... control.s
-	@echo ... environment.obj
-	@echo ... environment.i
-	@echo ... environment.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

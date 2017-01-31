@@ -80,71 +80,19 @@ CMakeFiles/Version001.dir/main.cpp.obj.provides: CMakeFiles/Version001.dir/main.
 CMakeFiles/Version001.dir/main.cpp.obj.provides.build: CMakeFiles/Version001.dir/main.cpp.obj
 
 
-CMakeFiles/Version001.dir/environment.cpp.obj: CMakeFiles/Version001.dir/flags.make
-CMakeFiles/Version001.dir/environment.cpp.obj: ../environment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Version001.dir/environment.cpp.obj"
-	C:\Users\S-4036~1\Dropbox\School\Other\SATELL~1\MinGW\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Version001.dir\environment.cpp.obj -c "C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\environment.cpp"
-
-CMakeFiles/Version001.dir/environment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Version001.dir/environment.cpp.i"
-	C:\Users\S-4036~1\Dropbox\School\Other\SATELL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\environment.cpp" > CMakeFiles\Version001.dir\environment.cpp.i
-
-CMakeFiles/Version001.dir/environment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Version001.dir/environment.cpp.s"
-	C:\Users\S-4036~1\Dropbox\School\Other\SATELL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\environment.cpp" -o CMakeFiles\Version001.dir\environment.cpp.s
-
-CMakeFiles/Version001.dir/environment.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Version001.dir/environment.cpp.obj.requires
-
-CMakeFiles/Version001.dir/environment.cpp.obj.provides: CMakeFiles/Version001.dir/environment.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/environment.cpp.obj.provides.build
-.PHONY : CMakeFiles/Version001.dir/environment.cpp.obj.provides
-
-CMakeFiles/Version001.dir/environment.cpp.obj.provides.build: CMakeFiles/Version001.dir/environment.cpp.obj
-
-
-CMakeFiles/Version001.dir/control.cpp.obj: CMakeFiles/Version001.dir/flags.make
-CMakeFiles/Version001.dir/control.cpp.obj: ../control.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Version001.dir/control.cpp.obj"
-	C:\Users\S-4036~1\Dropbox\School\Other\SATELL~1\MinGW\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Version001.dir\control.cpp.obj -c "C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\control.cpp"
-
-CMakeFiles/Version001.dir/control.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Version001.dir/control.cpp.i"
-	C:\Users\S-4036~1\Dropbox\School\Other\SATELL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\control.cpp" > CMakeFiles\Version001.dir\control.cpp.i
-
-CMakeFiles/Version001.dir/control.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Version001.dir/control.cpp.s"
-	C:\Users\S-4036~1\Dropbox\School\Other\SATELL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\control.cpp" -o CMakeFiles\Version001.dir\control.cpp.s
-
-CMakeFiles/Version001.dir/control.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Version001.dir/control.cpp.obj.requires
-
-CMakeFiles/Version001.dir/control.cpp.obj.provides: CMakeFiles/Version001.dir/control.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Version001.dir\build.make CMakeFiles/Version001.dir/control.cpp.obj.provides.build
-.PHONY : CMakeFiles/Version001.dir/control.cpp.obj.provides
-
-CMakeFiles/Version001.dir/control.cpp.obj.provides.build: CMakeFiles/Version001.dir/control.cpp.obj
-
-
 # Object files for target Version001
 Version001_OBJECTS = \
-"CMakeFiles/Version001.dir/main.cpp.obj" \
-"CMakeFiles/Version001.dir/environment.cpp.obj" \
-"CMakeFiles/Version001.dir/control.cpp.obj"
+"CMakeFiles/Version001.dir/main.cpp.obj"
 
 # External object files for target Version001
 Version001_EXTERNAL_OBJECTS =
 
 Version001.exe: CMakeFiles/Version001.dir/main.cpp.obj
-Version001.exe: CMakeFiles/Version001.dir/environment.cpp.obj
-Version001.exe: CMakeFiles/Version001.dir/control.cpp.obj
 Version001.exe: CMakeFiles/Version001.dir/build.make
 Version001.exe: CMakeFiles/Version001.dir/linklibs.rsp
 Version001.exe: CMakeFiles/Version001.dir/objects1.rsp
 Version001.exe: CMakeFiles/Version001.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Version001.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\s-4036711\Dropbox\School\Wind Challenge\Programming\TurbineOS\Version001\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Version001.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Version001.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,8 +101,6 @@ CMakeFiles/Version001.dir/build: Version001.exe
 .PHONY : CMakeFiles/Version001.dir/build
 
 CMakeFiles/Version001.dir/requires: CMakeFiles/Version001.dir/main.cpp.obj.requires
-CMakeFiles/Version001.dir/requires: CMakeFiles/Version001.dir/environment.cpp.obj.requires
-CMakeFiles/Version001.dir/requires: CMakeFiles/Version001.dir/control.cpp.obj.requires
 
 .PHONY : CMakeFiles/Version001.dir/requires
 

@@ -82,18 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/control.cpp">
-			<Option target="Version001"/>
-		</Unit>
-		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/control.h">
-			<Option target="Version001"/>
-		</Unit>
-		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/environment.cpp">
-			<Option target="Version001"/>
-		</Unit>
-		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/environment.h">
-			<Option target="Version001"/>
-		</Unit>
 		<Unit filename="C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/main.cpp">
 			<Option target="Version001"/>
 		</Unit>

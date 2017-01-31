@@ -4,8 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/control.cpp" "C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/CMakeFiles/Version001.dir/control.cpp.obj"
-  "C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/environment.cpp" "C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/CMakeFiles/Version001.dir/environment.cpp.obj"
   "C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/main.cpp" "C:/Users/s-4036711/Dropbox/School/Wind Challenge/Programming/TurbineOS/Version001/cmake-build-debug/CMakeFiles/Version001.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

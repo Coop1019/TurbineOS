@@ -3,5 +3,5 @@ project(Version001)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp environment.cpp environment.h control.cpp control.h)
+set(SOURCE_FILES main.cpp)
 add_executable(Version001 ${SOURCE_FILES})
