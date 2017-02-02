@@ -10,7 +10,7 @@ double windSpeed, RPM, powerInAir, TSMS, TSR, W, ef, pitch, resistance, opTSR=8;
 int featherNOW;
 
 void calculatePowerInWind(){
-    powerInAir = .5*1.2*(PI*BLADERADIUS*BLADERADIUS)*windSpeed*windSpeed;
+    powerInAir = .5*1.2*(PI*BLADERADIUS*BLADERADIUS)*windSpeed*windSpeed*windSpeed;
 }
 
 void calculateTSR(){
@@ -29,11 +29,11 @@ void calculateBladePitch(){
 
 void calculateResistance(){
     if (TSR<opTSR){
-        if (resistance>1){
-            resistance=resistance-1;
+        if (resistance>0.005){
+            resistance=resistance-0.005;
         }
     }
-    else if (TSR>opTSR){
+    else if ((TSR>opTSR)){
         resistance = resistance + 1;
     }
     else {
@@ -55,6 +55,7 @@ void debug(){
     //cout << "ef: " << ef << endl;
     cout << "pitch: " << pitch << endl;
     cout << "resistance: " << resistance << endl;
+    cout << "--------" << endl;
     //cout << "opTSR: " << opTSR << endl;
     //cout << "featherNow: " << featherNOW << endl;
 }
@@ -83,9 +84,11 @@ void turbineLoop(double windSpeedX){
     calculateResistance();
     calculateEfficiency();
     debug();
+    string penguin;
+    cin >> penguin;
 }
 int main() {
-    for (double datWinSpd = 5; datWinSpd < 6; datWinSpd++){
+    for (double datWinSpd = 10; datWinSpd < 11; datWinSpd){
         turbineLoop(datWinSpd);
         turbineLoop(datWinSpd);
         turbineLoop(datWinSpd);
