@@ -23,7 +23,7 @@ void calculateBladePitch(){
         pitch = windSpeed;
     }
     else {
-        pitch = -1;
+        pitch = 0.1;
     }
 }
 
@@ -41,6 +41,9 @@ void calculateResistance(){
             resistance=resistance+0.001;
         }
         else {resistance = resistance + 0.005;}
+    }
+    if (featherNOW==1){
+        resistance=1;
     }
 
 }
@@ -88,7 +91,6 @@ void turbineLoop(double windSpeedX){
     calculateResistance();
     calculateEfficiency();
     debug();
-    //string penguin;
     cin >> featherNOW;
 }
 int main() {
